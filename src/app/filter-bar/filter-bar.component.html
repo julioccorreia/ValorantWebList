@@ -1,0 +1,24 @@
+<div class="filter-bar" [class.shadow]="showfilter">
+    <div class="search-bar">
+        <img class="search-icon" src="../../assets/icons/search.png">
+        <input type="text" name="search" placeholder="Search">
+    </div>
+    <img class="down-arrow-icon" (click)="openFilter()" src="../../assets/icons/triple-down-arrow.png">
+    <div class="open-filter" *ngIf="showfilter">
+        <div class="timeline-filter">
+            <p class="timeline-title">Timeline</p>
+            <div class="option stone-ocean">
+                <input type="checkbox">Stone Ocean
+            </div>
+            <div class="option vento-aureo">
+                <input type="checkbox">Vento Aureo
+            </div>
+            <div class="option diamond-is-unbreakable">
+                <input type="checkbox">Diamond Is Unbreakable
+            </div>
+            <div class="option stardust-crusaders">
+                <input type="checkbox">Stardust Crusaders
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+.filter-bar {
+    width: calc(100vw - 250px);
+    height: 60px;
+
+    background: #A420E2;
+}
+
+.search-bar {
+    position: absolute;
+    top: 12px;
+    right: 70px;
+}
+
+.shadow {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    position: relative;
+    bottom: 8px;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: black;
+}
+
+.search-icon {
+    position: relative;
+    top: 1px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.down-arrow-icon {
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    width: 31px;
+    cursor: pointer;
+}
+
+.open-filter {
+    position: relative;
+    z-index: -1;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 250px);
+    height: 60px;
+    background: #AF34E9;
+}
+
+.timeline-filter {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.timeline-title {
+    position: absolute;
+    top: -40px;
+    color: black;
+}
+
+input[type=checkbox] {
+    position: relative;
+    top: -1px;
+    width: 15px;
+    height: 15px;
+}
+
+.option {
+    margin-right: 10px;
+}

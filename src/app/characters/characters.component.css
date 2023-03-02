@@ -1,0 +1,9 @@
+main {
+    position: fixed;
+    z-index: -1;
+    top: 75px;
+    left: 250px;
+    width: calc(100vw - 250px);
+    height: calc(100vh - 110px);
+    background: #FFD1F2;
+}
