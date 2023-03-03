@@ -11,13 +11,35 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(360deg, #770079 0%, rgba(79, 0, 81, 0.49) 180%, rgba(250, 0, 255, 0) 180%);
+    background: #0c1824;
 }
 
 .logo {
     position: fixed;
-    width: 120px;
-    height: 75px;
-    left: 65px;
-    top: 0px;
+    height: 65px;
+    left: 5px;
+    top: 5px;
 }
+
+.logo-title {
+    position: fixed;
+    height: 45px;
+    left: 105px;
+    top: 15px;
+}
+
+.hero-waves {
+    display: block;
+    margin-top: 60px;
+    width: 100%;
+    height: 80px;
+    z-index: 5;
+    position: relative;
+  }
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }

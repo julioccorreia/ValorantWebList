@@ -6,19 +6,32 @@
     <img class="down-arrow-icon" (click)="openFilter()" src="../../assets/icons/triple-down-arrow.png">
     <div class="open-filter" *ngIf="showfilter">
         <div class="timeline-filter">
-            <p class="timeline-title">Timeline</p>
-            <div class="option stone-ocean">
-                <input type="checkbox">Stone Ocean
-            </div>
-            <div class="option vento-aureo">
-                <input type="checkbox">Vento Aureo
-            </div>
-            <div class="option diamond-is-unbreakable">
-                <input type="checkbox">Diamond Is Unbreakable
-            </div>
-            <div class="option stardust-crusaders">
-                <input type="checkbox">Stardust Crusaders
-            </div>
+            <form>
+                <p class="timeline-title">Timeline</p>
+                <div class="option stone-ocean">
+                    <input type="checkbox" value="Stone Ocean">Stone Ocean
+                </div>
+                <div class="option vento-aureo">
+                    <input type="checkbox" value="Vento Aureo">Vento Aureo
+                </div>
+                <div class="option diamond-is-unbreakable">
+                    <input type="checkbox" value="Diamond is Unbreakable">Diamond Is Unbreakable
+                </div>
+                <div class="option stardust-crusaders">
+                    <input type="checkbox" value="Stardust Crusaders">Stardust Crusaders
+                </div>
+            </form>
+        </div>
+        <div class="gender-filter">
+            <form>
+                <p class="gender-title">Gender</p>
+                <div class="option male">
+                    <input type="checkbox" value="male">Male
+                </div>
+                <div class="option female">
+                    <input type="checkbox" value="female">Female
+                </div>
+            </form>
         </div>
     </div>
 </div>

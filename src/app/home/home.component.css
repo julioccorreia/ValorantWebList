@@ -1,0 +1,24 @@
+@media (min-width: 1200px) {
+    #hero {
+        background-attachment: fixed;
+    }
+
+    #hero {
+        width: 100%;
+        padding: 120px 0 0;
+        background: linear-gradient(35deg,#ff4656ee,#0a141eee 80%),url(../../assets/images/hero-bg.jpg) center no-repeat;
+        background-attachment: scroll, scroll;
+        background-size: auto, auto;
+        background-size: cover;
+    }
+    section {
+        padding: 100px 0;
+        overflow: hidden;
+    }
+    article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+        display: block;
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+}

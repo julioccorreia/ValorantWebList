@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { CharactersComponent } from './characters/characters.component';
 import { DictionaryComponent } from './dictionary/dictionary.component';
 import { FilterBarComponent } from './filter-bar/filter-bar.component';
+import { CharCardComponent } from './char-card/char-card.component';
 
 @NgModule({
   declarations: [
@@ -21,11 +23,13 @@ import { FilterBarComponent } from './filter-bar/filter-bar.component';
     HomeComponent,
     CharactersComponent,
     DictionaryComponent,
-    FilterBarComponent
+    FilterBarComponent,
+    CharCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: 'characters', component: CharactersComponent},

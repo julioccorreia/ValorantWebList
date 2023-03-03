@@ -62,7 +62,7 @@ input {
     background: #AF34E9;
 }
 
-.timeline-filter {
+.timeline-filter form{
     position: absolute;
     top: 35px;
     right: 10px;
@@ -71,6 +71,20 @@ input {
 }
 
 .timeline-title {
+    position: absolute;
+    top: -40px;
+    color: black;
+}
+
+.gender-filter form{
+    position: absolute;
+    top: 35px;
+    right: 750px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gender-title {
     position: absolute;
     top: -40px;
     color: black;

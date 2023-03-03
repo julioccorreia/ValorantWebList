@@ -7,3 +7,27 @@ main {
     height: calc(100vh - 110px);
     background: #FFD1F2;
 }
+
+.pagination {
+    position: absolute;
+    bottom: 20px;
+    left: calc(calc(100vw - 250px) / 2 - 100px);
+    display: flex;
+    flex-direction: row;
+}   
+
+.left-arrow {
+    height: 45px;
+    cursor: pointer;
+}
+
+.right-arrow {
+    transform: rotate(-180deg);
+    height: 45px;
+    cursor: pointer;
+}
+
+.count {
+    position: relative;
+    bottom: 3px;
+}
