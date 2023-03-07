@@ -3,8 +3,8 @@
         <img class="search-icon" src="../../assets/icons/search.png">
         <input type="text" name="search" placeholder="Search">
     </div>
-    <img class="down-arrow-icon" (click)="openFilter()" src="../../assets/icons/triple-down-arrow.png">
-    <div class="open-filter" *ngIf="showfilter">
+    <img class="down-arrow-icon" [ngClass]="{'up-arrow': showfilter}" (click)="openFilter()" src="../../assets/icons/triple-down-arrow.png">
+    <div class="open-filter" *ngIf="showfilter">    
         <div class="timeline-filter">
             <form>
                 <p class="timeline-title">Timeline</p>

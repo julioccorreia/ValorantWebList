@@ -12,7 +12,6 @@ import { HomeComponent } from './home/home.component';
 import { CharactersComponent } from './characters/characters.component';
 import { DictionaryComponent } from './dictionary/dictionary.component';
 import { FilterBarComponent } from './filter-bar/filter-bar.component';
-import { CharCardComponent } from './char-card/char-card.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +22,7 @@ import { CharCardComponent } from './char-card/char-card.component';
     HomeComponent,
     CharactersComponent,
     DictionaryComponent,
-    FilterBarComponent,
-    CharCardComponent
+    FilterBarComponent
   ],
   imports: [
     BrowserModule,

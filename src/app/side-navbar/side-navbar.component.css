@@ -15,13 +15,13 @@ aside {
     left: 0;
     width: 250px;
     height: 100vh;
-    background: #E375B0;
+    background: #ff4554;
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.25);
     
 }
 
 .active {
-    background: #FF54B0;
+    background: #c42936;
 }
 
 aside a {
@@ -29,7 +29,7 @@ aside a {
     text-align: center;
     text-decoration: none;
     display: block;
-    border-bottom: 1px solid #9F4977;
+    border-bottom: 1px solid #ce0213;
 }
 
 aside a:hover {

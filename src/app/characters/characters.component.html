@@ -1,6 +1,18 @@
 <main>
     <app-filter-bar></app-filter-bar>
-    <app-char-card></app-char-card>
+    <div class="content">
+        <ng-template ngFor let-character [ngForOf]="getAllCharacters">
+            <div class="card">
+                <div class="card-image">
+                    <img class="char-background" src="../../assets/images/background.png">
+                    <img class="char-image" src="../../assets/images/fullportrait.png">    
+                </div>
+                <div class="information">
+                    <p class="card-name">Chamber</p>
+                </div>
+            </div>
+        </ng-template>
+    </div>
     <div class="pagination">
         <img class="left-arrow" src="../../assets/images/arrow.png">
         <p class="count">1 / 32</p>

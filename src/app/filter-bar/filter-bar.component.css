@@ -10,8 +10,7 @@
 .filter-bar {
     width: calc(100vw - 250px);
     height: 60px;
-
-    background: #A420E2;
+    background: #0d1b29;
 }
 
 .search-bar {
@@ -51,6 +50,10 @@ input {
     cursor: pointer;
 }
 
+.up-arrow {
+    transform: rotate(180deg);
+}
+
 .open-filter {
     position: relative;
     z-index: -1;
@@ -59,7 +62,7 @@ input {
     flex-direction: column;
     width: calc(100vw - 250px);
     height: 60px;
-    background: #AF34E9;
+    background: #0e1924ee;
 }
 
 .timeline-filter form{
@@ -73,7 +76,7 @@ input {
 .timeline-title {
     position: absolute;
     top: -40px;
-    color: black;
+    color: white;
 }
 
 .gender-filter form{
@@ -87,7 +90,7 @@ input {
 .gender-title {
     position: absolute;
     top: -40px;
-    color: black;
+    color: white;
 }
 
 input[type=checkbox] {
