@@ -7,7 +7,7 @@ import { map, Observable, tap } from 'rxjs';
 })
 export class ValorantApiService {
 
-  private url: string = 'https://valorant-api.com/v1/agents';
+  private url: string = 'https://valorant-api.com/v1/agents?isPlayableCharacter=true';
 
   constructor(private http: HttpClient) { }
 
