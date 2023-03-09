@@ -23,9 +23,8 @@ export class CharacterInformationComponent {
   @Input() ability4: any;
   @Input() ability4Image: any;
   @Input() ability4Description: any;
-  
 
   constructor() {
-
+    
   }
 }

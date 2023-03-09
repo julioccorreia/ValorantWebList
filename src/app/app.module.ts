@@ -8,9 +8,9 @@ import { AppComponent } from './app.component';
 import { SideNavbarComponent } from './side-navbar/side-navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './home/home.component';
-import { CharactersComponent } from './characters/characters.component';
-import { DictionaryComponent } from './dictionary/dictionary.component';
+import { HomeComponent } from '../app/pages/home/home.component';
+import { CharactersComponent } from '../app/pages/characters/characters.component';
+import { DictionaryComponent } from '../app/pages//dictionary/dictionary.component';
 import { FilterBarComponent } from './filter-bar/filter-bar.component';
 import { CharacterInformationComponent } from './character-information/character-information.component';
 

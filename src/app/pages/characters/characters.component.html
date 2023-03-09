@@ -1,7 +1,6 @@
 <main>
     <app-filter-bar></app-filter-bar>
     <div class="content">
-        
         <ng-template ngFor let-character [ngForOf]="charactersByPage">
             <details (click)="closeDetails()">
                 <summary>
@@ -16,20 +15,20 @@
                     </div>
                 </summary>
                 <aside>
-                    <app-character-information 
+                    <app-character-information
                     [role] = character.role.displayName
                     [ability1] = character.abilities[0].displayName
                     [ability1Image] = character.abilities[0].displayIcon
                     [ability1Description] = character.abilities[0].description
                     [ability2] = character.abilities[1].displayName
                     [ability2Image] = character.abilities[1].displayIcon
-                    [ability2Description] = character.abilities[0].description
+                    [ability2Description] = character.abilities[1].description
                     [ability3] = character.abilities[2].displayName
                     [ability3Image] = character.abilities[2].displayIcon
-                    [ability3Description] = character.abilities[0].description
+                    [ability3Description] = character.abilities[2].description
                     [ability4] = character.abilities[3].displayName
                     [ability4Image] = character.abilities[3].displayIcon
-                    [ability4Description] = character.abilities[0].description
+                    [ability4Description] = character.abilities[3].description
                     >
                     </app-character-information>
                 </aside>
