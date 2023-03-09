@@ -59,6 +59,7 @@ h2 {
 
 .api-button:hover {
     background-color: white;
+    cursor: pointer;
 }
 
 .api-button:hover > a {
@@ -70,6 +71,14 @@ h2 {
     position: absolute;
     top: 380px;
     transform: rotate(180deg);
-    width: calc(100vw - 250px);
+    width: 2000px;
     filter: brightness(1000%) saturate(0%) contrast(1000%);
+}
+
+@media screen and (max-width: 1770px) {
+
+    main {
+        width: calc(100vw - 60px);
+    }
+
 }

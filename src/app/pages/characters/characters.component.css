@@ -48,11 +48,15 @@ main {
 
 .information {
     width: 350px;
-    height: 50px;
+    height: 100px;
     position: relative;
-    top: -100px;
+    top: -110px;
     color: white;
     background-color: rgba(13,27,41,0.7)
+}
+
+.information > hr {
+    color: #fe4554;
 }
 
 .card-name {
@@ -62,6 +66,14 @@ main {
     text-align: center;
     line-height: 2;
     letter-spacing: 5px;
+}
+
+.card-name > img {
+    position: relative;
+    top: 2px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
 }
 
 .char-background {
@@ -81,7 +93,7 @@ main {
 .pagination {
     position: absolute;
     bottom: 20px;
-    left: calc(calc(100vw - 250px) / 2 - 100px);
+    left: calc(((100vw - 300px) / 2) - 30px);
     display: flex;
     flex-direction: row;
 }   

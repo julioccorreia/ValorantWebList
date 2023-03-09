@@ -10,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from '../app/pages/home/home.component';
 import { CharactersComponent } from '../app/pages/characters/characters.component';
-import { DictionaryComponent } from '../app/pages//dictionary/dictionary.component';
 import { FilterBarComponent } from './filter-bar/filter-bar.component';
 import { CharacterInformationComponent } from './character-information/character-information.component';
 
@@ -22,7 +21,6 @@ import { CharacterInformationComponent } from './character-information/character
     HeaderComponent,
     HomeComponent,
     CharactersComponent,
-    DictionaryComponent,
     FilterBarComponent,
     CharacterInformationComponent
   ],
@@ -33,7 +31,6 @@ import { CharacterInformationComponent } from './character-information/character
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: 'characters', component: CharactersComponent},
-      {path: 'dictionary', component: DictionaryComponent},
       {path: '', redirectTo: 'home', pathMatch: 'full'}
     ]),
   ],

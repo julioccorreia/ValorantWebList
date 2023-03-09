@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-filter-bar',
@@ -6,13 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./filter-bar.component.css']
 })
 export class FilterBarComponent {
-  showfilter: boolean = true;
+  @Output() public emmitSearch: EventEmitter<string> = new EventEmitter();
 
-  openFilter() {
-    if (this.showfilter) {
-      this.showfilter = false;
-    } else {
-      this.showfilter = true;
-    }
+  constructor() {}
+
+  ngOnInit(): void {
+
+  }
+
+  public search(value: string) {
+    this.emmitSearch.emit(value);
   }
 }

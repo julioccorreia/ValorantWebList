@@ -3,7 +3,7 @@
     font-size: 32px;
     line-height: 39px;
 }
-
+  
 aside {
     position: fixed;
     top: 75px;
@@ -29,4 +29,46 @@ aside a {
 
 aside a:hover {
     box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+@media screen and (max-width: 1770px) {
+
+    aside {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        width: 60px;
+    }
+
+    .nav-bar {
+        visibility: hidden;
+    }
+
+    .btn-nav {
+        position: absolute;
+        z-index: 1;
+        width: 60px;
+        height: 60px;
+        background: url('../../assets/icons/nav.png');
+        background-size: 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    .btn-nav:hover {
+        animation: nav-effect 0.5s;
+        background-size: 40px;
+    }
+
+    @keyframes nav-effect {
+        from {
+            background-size: 50px;
+        }
+        to {
+            background-size: 40px;
+        }
+    }
+
 }

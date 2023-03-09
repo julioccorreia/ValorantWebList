@@ -1,5 +1,5 @@
 <main>
-    <app-filter-bar></app-filter-bar>
+    <app-filter-bar (emmitSearch)="getSearch($event)"></app-filter-bar>
     <div class="content">
         <ng-template ngFor let-character [ngForOf]="charactersByPage">
             <details (click)="closeDetails()">
@@ -11,6 +11,8 @@
                         </div>
                         <div class="information">
                             <p class="card-name">{{ character.displayName }}</p>
+                            <hr>
+                            <p class="card-name"><img src="{{ character.role.displayIcon }}">{{ character.role.displayName}}</p>
                         </div>
                     </div>
                 </summary>
