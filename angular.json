@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "spa-jojo": {
+    "spa-valorant": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/spa-jojo",
+            "outputPath": "dist/spa-valorant",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "spa-jojo:build:production"
+              "browserTarget": "spa-valorant:build:production"
             },
             "development": {
-              "browserTarget": "spa-jojo:build:development"
+              "browserTarget": "spa-valorant:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "spa-jojo:build"
+            "browserTarget": "spa-valorant:build"
           }
         },
         "test": {
@@ -90,6 +90,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "spa-valorant:build:production",
+            "firebaseProject": "valorantweblist",
+            "firebaseHostingSite": "valorantweblist"
           }
         }
       }
