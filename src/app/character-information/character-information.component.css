@@ -72,3 +72,16 @@
 .ab4:hover .desc4 {
     visibility: visible;
 }
+
+@media screen and (max-width: 1510px) {
+
+    .information-card{
+        border-radius: 20px;
+    }
+
+    .description {
+        top: unset;
+        bottom: 450px;
+        left: -3px;
+    }
+}

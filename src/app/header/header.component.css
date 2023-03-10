@@ -6,6 +6,7 @@ header {
     height: 75px;
     width: 100vw;
     position: fixed;
+    z-index: 5;
     top: 0;
     left: 0;
     background: #0c1824;
@@ -39,4 +40,14 @@ header {
   }
   *, ::after, ::before {
     box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 450px) {
+  
+    .logo-title {
+        position: fixed;
+        height: 35px;
+        left: 105px;
+        top: 25px;
+    }
   }

@@ -94,3 +94,30 @@ input[type=checkbox] {
 .option {
     margin-right: 10px;
 }
+
+@media screen and (max-width: 450px) {
+    .filter-bar{
+        position: relative;
+        top: 60px;
+    }
+
+    .search-bar {
+        position: absolute;
+        top: unset;
+        right: unset;
+        width: 100vw;
+        height: 60px
+    }
+
+    .search-icon {
+        visibility: hidden;
+        transform: translateX(-100%);
+    }
+
+    input {
+        position: absolute;
+        top: 10px;
+        right: calc((100vw - 352) / 2);
+        width: 85vw;
+    }
+}
