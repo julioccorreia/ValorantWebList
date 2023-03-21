@@ -188,3 +188,28 @@ details > aside {
         left: -22px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    main {
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    details {
+        margin: 0 calc((100vw - 450px) / 2);
+        width: 350px;
+    }
+}
+
+@media screen and (max-height: 900px) and (min-width:1511px) {
+    main {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .pagination {
+        position: relative;
+        top: 670px;
+    } 
+}
