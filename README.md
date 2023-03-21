@@ -1,27 +1,87 @@
-# SpaJojo
+# Field Control Desafio
+Júlio César Correia Gazige <br>
+Telefone: (17) 99707-8889 <br>
+Email: juliocgazige@hotmail.com <br>
+Linkedin: https://www.linkedin.com/in/julioccorreia/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+## Documentação do projeto
 
-## Development server
+* [Sobre o Projeto](#about)
+* [Funcionalidades](#functions)
+* [Exemplo](#usage)
+* [Inspiração](#inspiration)
+* [Imagens](#images)
+* [Respostas](#answer)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Valorant WebList
 
-## Code scaffolding
+O desafio está hospedado na vercel: <a href="https://valorant-web-list.vercel.app/" target="_blank">Clique Aqui!</a> <br>
+Ou aqui o link caso não funncione: https://valorant-web-list.vercel.app/ <br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2 id="about">Sobre o Projeto</h2>
 
-## Build
+Esse projeto tem o objetivo tratar as informações recebidas de uma API e disponibilizar informações sobre os personagens do jogo Valorant, sendo essas informações: Nome, classe e habilidades de cada personagem.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h2 id ="functions">Funcionalidades</h2>
 
-## Running unit tests
+- Ver os agentes, seus nomes, classes e habilidades
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h2 id="usage">Utilização</h2>
 
-## Running end-to-end tests
+- Entre na aba "Characters".
+- Ao clicar em um card de agente, suas habilidades serão exibidas ao lado.
+- Passe o mouse por cima de cada habilidade para ver suas respectivas informações.
+- Qualquer personagem pode ser pesquisado atráves da barra de pesquisa.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Obs: Em telas com largura menor que 1770px, a barra de navegação lateral estará oculta no canto esquerdo, para exibi=la, bastá passar o mouse próximo ao canto esquerdo.
 
-## Further help
+<h2 id='inspiration'>Inspiração</h2>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Valorant API
+
+Para a tela final me inspirei no site da própria API. 
+
+![alt](/src/assets/readmeImg/valorant-api.png)
+
+<h2 id="images">Imagens do projeto</h2>
+
+# Tela principal
+## Barra de navegação visivel
+![alt](/src/assets/readmeImg/home-min-1771px.png)
+## Bara de navegação oculta
+![alt](/src/assets/readmeImg/home-max-1770px.png)
+# Tela de personagens
+![alt](/src/assets/readmeImg/characters.png)
+# Exibição das habilidades
+![alt](/src/assets/readmeImg/character-info.png)
+# Descrição de cada habilidade
+![alt](/src/assets/readmeImg/character-skill-info.png)
+
+<h2 id="answer">Respostas</h2>
+
+## 1-Qual ferramentas e bibliotecas (libraries, framework, tools etc) você usou?
+Foi utilizado apenas o Angular e CSS.
+
+## 2-Porque você optou pela tecnologia X e não a Y?
+A escolha do Angular se deve pela participação do Field Academy, sendo o primeiro framework que eu tive contato e também a etapa final do Field Academy. Já o CSS foi por ser a linguagem de estilização que mais tenho familiaridade.
+
+## 3-Quais princípios da engenharia de software que você usou?
+### KISS (Keep It Simple, Stupid!)
+Tentei deixar tanto o código quanto a interface os mais simples possivéis, para melhor utilizaçãos dos usuários e manutenção e modificação do código.
+
+## 4-Desafios e problemas que você enfrentou e como você resolveu?
+O primeiro contato foi o principal desafio, aprender o framework do zero para o desenvolvimento do projeto foi uma grande batalha, mas com estudo foi possivel aprender tudo o que era necessário para passar por cada dificuldade.
+
+A paginação foi um desafio interessante, já que a API não apresentava configuração para paginação, sendo assim, precisei realizar uma paginação própria, pois decidi não utilizar biblioteca de paginação para exercitar minha lógica e conhecimento do código. 
+
+## 5- O que você entende que pode ser melhorado e como fazer isso?
+Melhorar a versão mobile - Atualmente a aplicação possui responsividade para mobile, mas não cobre todos os dispositivos.
+
+Mais conteúdo - Atualmente a aplicação oferece apenas informações sobre os personagens do jogo, porém o jogo possui diversas armas, assim como skins para cada uma. Além de banners, chaveiros, títulos que poderiam ser implementados na aplicação
+
+Filtros - Adicionar mais opções para filtrar as pesquisas realizadas em personagens e também para os conteúdos que podem ser adicionados.
+
+## Um pouco sobre mim
+- Meu nome é Júlio César, tenho 19 anos e estou cursando o 4º Semestre em Informática para Negócios pela FATEC Rio Preto, ainda não possuo experiência profissional na área de programação mas sempre fui apaixonado por frontend.
+- Participei recentemento do Field Academy, que possui carga horário de 220 horas, onde aprendi sobre Profissionalismo, Fundamentos, Frontend, Backend e Boas Práticas.
+- Sou formado em tecnico em informática pela ETEC Rio Preto

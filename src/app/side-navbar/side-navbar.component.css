@@ -48,7 +48,7 @@ aside a:hover {
         width: 250px;
         height: 100vh;
         background: #ff4554;
-        transform: translateX(-100%);
+        transform: translateX(-95%);
         transition: transform .5s cubic-bezier(.4,0,.2,1);
     }
 
