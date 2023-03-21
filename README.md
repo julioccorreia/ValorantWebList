@@ -8,7 +8,7 @@ Linkedin: https://www.linkedin.com/in/julioccorreia/
 
 * [Sobre o Projeto](#about)
 * [Funcionalidades](#functions)
-* [Exemplo](#usage)
+* [Utilização](#usage)
 * [Inspiração](#inspiration)
 * [Imagens](#images)
 * [Respostas](#answer)
