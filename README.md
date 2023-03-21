@@ -37,7 +37,7 @@ Obs: Em telas com largura menor que 1770px, a barra de navegação lateral estar
 
 <h2 id='inspiration'>Inspiração</h2>
 
-# Valorant API
+### Valorant API
 
 Para a tela final me inspirei no site da própria API. 
 
@@ -45,16 +45,16 @@ Para a tela final me inspirei no site da própria API.
 
 <h2 id="images">Imagens do projeto</h2>
 
-# Tela principal
-## Barra de navegação visivel
+### Tela principal
+#### Barra de navegação visivel
 ![alt](/src/assets/readmeImg/home-min-1771px.png)
-## Bara de navegação oculta
+#### Bara de navegação oculta
 ![alt](/src/assets/readmeImg/home-max-1770px.png)
-# Tela de personagens
+### Tela de personagens
 ![alt](/src/assets/readmeImg/characters.png)
-# Exibição das habilidades
+### Exibição das habilidades
 ![alt](/src/assets/readmeImg/character-info.png)
-# Descrição de cada habilidade
+### Descrição de cada habilidade
 ![alt](/src/assets/readmeImg/character-skill-info.png)
 
 <h2 id="answer">Respostas</h2>
